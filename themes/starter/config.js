@@ -267,19 +267,10 @@ const CONFIG = {
   ],
 
 
-  STARTER_FOOTER_PRIVACY_POLICY_TEXT: 'Privacy policy',
-  STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
-
-  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: 'legacy notice',
-  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/legacy-notice',
-
-  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: 'terms of use',
-  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
-
   // 404页面的提示语
-  STARTER_404_TITLE: 'We seem to be unable to find the page you're looking',
-  STARTER_404_TEXT: 'Sorry! The page you are looking for does not exist. It may have been moved or deleted',
-  STARTER_404_BACK: 'Home',
+  STARTER_404_TITLE: '我们似乎找不到您要找的页面。',
+  STARTER_404_TEXT: '抱歉！您要查找的页面不存在。可能已经移动或删除。',
+  STARTER_404_BACK: '回到主页',
 
   STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
   STARTER_POST_REDIRECT_URL: 'https://watahome.com', // 重定向域名
