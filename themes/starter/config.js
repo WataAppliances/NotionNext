@@ -9,7 +9,6 @@ const CONFIG = {
 
   // MENU ， 菜单部分不在此处配置，请在Notion数据库中添加MENU
 
-  // 英雄区块导航
   STARTER_HERO_TITLE_1: 'A Professional Supplier Of Home Appliances', // 英雄区文字
   STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero-image.webp', // 产品预览图 ，默认读取public目录下图片
 
