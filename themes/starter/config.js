@@ -10,7 +10,7 @@ const CONFIG = {
   // MENU ， 菜单部分不在此处配置，请在Notion数据库中添加MENU
 
   // 英雄区块导航
-  STARTER_HERO_TITLE_1: 'A Professional Supplier <br /> <br /> Of <br /> <br /> Home Appliances', // 英雄区文字
+  STARTER_HERO_TITLE_1: 'A Professional Supplier Of Home Appliances', // 英雄区文字
   STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero-image.webp', // 产品预览图 ，默认读取public目录下图片
 
 
@@ -20,7 +20,7 @@ const CONFIG = {
   STARTER_FEATURE_TEXT_1: 'Wata Services', // 特性
 
   STARTER_FEATURE_1_TITLE_1: 'Home Appliances', // 特性1
-  STARTER_FEATURE_1_TEXT_1: 'Providing air conditioner, washing machine,dehumidifier and so on home appliances', // 特性1
+  STARTER_FEATURE_1_TEXT_1: 'Providing air conditioner, washing machine,dehumidifier and so on', // 特性1
   STARTER_FEATURE_1_BUTTON_TEXT: 'More', // 特性1
   STARTER_FEATURE_1_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 特性1
 
@@ -194,11 +194,11 @@ const CONFIG = {
 
   // 联系模块
   STARTER_CONTACT_ENABLE: true, // 联系模块开关
-  STARTER_CONTACT_TITLE: 'Contact Us',
-  STARTER_CONTACT_TEXT: 'How Could We Help You?',
+  STARTER_CONTACT_TITLE: 'Now',
+  STARTER_CONTACT_TEXT: 'Contact US?',
   STARTER_CONTACT_LOCATION_TITLE: 'Location',
-  STARTER_CONTACT_LOCATION_TEXT: 'Guangzhou,Ningbo',
-  STARTER_CONTACT_EMAIL_TITLE: 'Email？',
+  STARTER_CONTACT_LOCATION_TEXT: 'Guangzhou/Ningbo',
+  STARTER_CONTACT_EMAIL_TITLE: 'Email US',
   STARTER_CONTACT_EMAIL_TEXT: 'info@watahome.com',
 
 
@@ -237,55 +237,52 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
+  STARTER_FOOTER_SLOGAN: 'Your Trusted Source for Quality Home Appliances',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
     {
-      TITLE: '关于我们',
+      TITLE: 'About',
       LINK_GROUP: [
-        { TITLE: '官方主页', URL: '/#home' },
-        { TITLE: '操作文档', URL: 'https://docs.tangly1024.com/about' },
-        { TITLE: '帮助支持', URL: 'https://docs.tangly1024.com/article/how-to-question' },
-        { TITLE: '合作申请', URL: 'https://docs.tangly1024.com/my-service' }
+        { TITLE: 'Home', URL: '/#home' },
+        { TITLE: 'About US', URL: 'https://docs.tangly1024.com/about' },
       ]
     },
     {
-      TITLE: '功能特性',
+      TITLE: 'Services',
       LINK_GROUP: [
-        { TITLE: '部署指南', URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next' },
-        { TITLE: '升级指南', URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext' },
-        { TITLE: '最新版本', URL: 'https://docs.tangly1024.com/article/latest' }
+        { TITLE: 'Washing Machine', URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next' },
+        { TITLE: 'Air Conditioner', URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext' },
+        { TITLE: 'Refrigerator', URL: 'https://docs.tangly1024.com/article/latest' }
       ]
     },
     {
-      TITLE: 'Notion写作',
+      TITLE: 'Spare Parts',
       LINK_GROUP: [
-        { TITLE: 'Notion开始写作', URL: 'https://docs.tangly1024.com/article/start-to-write' },
-        { TITLE: '快捷键提升效率', URL: 'https://docs.tangly1024.com/article/notion-short-key' },
-        { TITLE: '中国大陆使用Notion', URL: 'https://docs.tangly1024.com/article/notion-faster' }
+        { TITLE: 'AC Brackets', URL: 'https://docs.tangly1024.com/article/start-to-write' },
+        { TITLE: 'Production Line', URL: 'https://docs.tangly1024.com/article/notion-short-key' },
+        { TITLE: 'Parts', URL: 'https://docs.tangly1024.com/article/notion-faster' }
       ]
     }
   ],
 
-  STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
 
-  STARTER_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
+  STARTER_FOOTER_PRIVACY_POLICY_TEXT: 'Privacy policy',
   STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
 
-  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: '法律声明',
+  STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: 'legacy notice',
   STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/legacy-notice',
 
-  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: '服务协议',
+  STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: 'terms of use',
   STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
 
   // 404页面的提示语
-  STARTER_404_TITLE: '我们似乎找不到您要找的页面。',
-  STARTER_404_TEXT: '抱歉！您要查找的页面不存在。可能已经移动或删除。',
-  STARTER_404_BACK: '回到主页',
+  STARTER_404_TITLE: 'We seem to be unable to find the page you're looking',
+  STARTER_404_TEXT: 'Sorry! The page you are looking for does not exist. It may have been moved or deleted',
+  STARTER_404_BACK: 'Home',
 
   STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-  STARTER_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
+  STARTER_POST_REDIRECT_URL: 'https://watahome.com', // 重定向域名
   STARTER_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_STARTER_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
