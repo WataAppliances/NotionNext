@@ -11,10 +11,6 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_TITLE_1: 'A Professional Supplier of Home Appliances', // 英雄区文字
-  STARTER_HERO_TITLE_2: ' ', // 英雄区文字
-  STARTER_HERO_TITLE_3: ' ', // 英雄区文字
-  STARTER_HERO_BUTTON_2_ICON: ' ', // 英雄区按钮2的图标，不需要则留空
-
   STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero-image.webp', // 产品预览图 ，默认读取public目录下图片
 
   // 顶部右侧导航暗流
