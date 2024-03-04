@@ -75,6 +75,41 @@ const Style = () => {
     opacity: 1;
   }
   
+  .sticky .loginBtn{
+    --tw-text-opacity: 1;
+    color: rgb(17 25 40 / var(--tw-text-opacity));
+  }
+  
+  .sticky .loginBtn:hover{
+    --tw-text-opacity: 1;
+    color: rgb(55 88 249 / var(--tw-text-opacity));
+    opacity: 1;
+  }
+  
+  :is(.dark .sticky .loginBtn){
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+  
+  :is(.dark .sticky .loginBtn:hover){
+    --tw-text-opacity: 1;
+    color: rgb(55 88 249 / var(--tw-text-opacity));
+  }
+  
+  .sticky .signUpBtn{
+    --tw-bg-opacity: 1;
+    background-color: rgb(55 88 249 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+  
+  .sticky .signUpBtn:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgb(27 68 200 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+  
   .sticky #themeSwitcher ~ span{
     --tw-text-opacity: 1;
     color: rgb(17 25 40 / var(--tw-text-opacity));
