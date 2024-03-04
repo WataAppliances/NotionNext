@@ -16,41 +16,46 @@ const CONFIG = {
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
-  STARTER_FEATURE_TITLE: '特性', // 特性
-  STARTER_FEATURE_TEXT_1: 'NotionNext的主要特性', // 特性
-  STARTER_FEATURE_TEXT_2: 'NotionNext的愿景是帮助您简单、无感知地稳定地搭建自己的网站，放大品牌的价值。 ', // 特性
+  STARTER_FEATURE_TITLE: ' ', // 特性
+  STARTER_FEATURE_TEXT_1: 'Wata Services', // 特性
 
-  STARTER_FEATURE_1_TITLE_1: '免费且开源', // 特性1
-  STARTER_FEATURE_1_TEXT_1: '项目源码在Github上完全开放共享，遵循MIT协议', // 特性1
-  STARTER_FEATURE_1_BUTTON_TEXT: '了解更多', // 特性1
+  STARTER_FEATURE_1_TITLE_1: 'Home Appliances', // 特性1
+  STARTER_FEATURE_1_TEXT_1: 'Providing air conditioner, washing machine,dehumidifier and so on home appliances', // 特性1
+  STARTER_FEATURE_1_BUTTON_TEXT: 'More', // 特性1
   STARTER_FEATURE_1_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 特性1
 
-  STARTER_FEATURE_2_TITLE_1: '多种主题定制', // 特性2
-  STARTER_FEATURE_2_TEXT_1: '数十种主题,适用于不同场景，总有一款适合你', // 特性2
-  STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
+  STARTER_FEATURE_2_TITLE_1: 'Parts and Lines', // 特性2
+  STARTER_FEATURE_2_TEXT_1: 'Spare parts and production line for home appliances is available', // 特性2
+  STARTER_FEATURE_2_BUTTON_TEXT: 'More', // 特性2
   STARTER_FEATURE_2_BUTTON_URL: 'https://docs.tangly1024.com/article/notion-next-themes', // 特性2
 
-  STARTER_FEATURE_3_TITLE_1: '优秀的性能', // 特性3
-  STARTER_FEATURE_3_TEXT_1: '基于NextJS开发，更快的响应速度，更好的SEO', // 特性3
-  STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
+  STARTER_FEATURE_3_TITLE_1: 'Shipping Fowarder', // 特性3
+  STARTER_FEATURE_3_TEXT_1: 'Offer shipping service for our customers', // 特性3
+  STARTER_FEATURE_3_BUTTON_TEXT: 'More', // 特性3
   STARTER_FEATURE_3_BUTTON_URL: 'https://docs.tangly1024.com/article/next-js', // 特性3
 
-  STARTER_FEATURE_4_TITLE_1: '便捷的写作体验', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '只需在Notion笔记中编修，自动同步到网站', // 特性4
-  STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
+  STARTER_FEATURE_4_TITLE_1: 'Sourcing', // 特性4
+  STARTER_FEATURE_4_TEXT_1: 'If you have other demands from China, we are happy to help', // 特性4
+  STARTER_FEATURE_4_BUTTON_TEXT: 'More', // 特性4
   STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
-  STARTER_ABOUT_TITLE: '一套轻量实用的建站解决方案',
-  STARTER_ABOUT_TEXT: 'NotionNext的愿景是帮助非技术人员的小白，最低成本、最快速地搭建自己的网站，帮助您将自己的产品与故事高效地传达给世界。 <br /> <br /> 功能强大的Notion笔记，简单快速的Vercel托管平台，组成一个简单的网站',
-  STARTER_ABOUT_BUTTON_TEXT: '了解更多',
+  STARTER_ABOUT_TITLE: 'Professional Home Appliances Solution Provider',
+  STARTER_ABOUT_TEXT: 'WATA is a professional supply chain company specializing in home appliances. With over 8 years of experience, we have established ourselves as a reliable and trusted supplier in the industry. <br /> <br />  Our Value:
+
+- Worth: We strive to deliver products and services of the highest worth to our customers.
+- All: We cater to the diverse needs of all our clients and provide comprehensive solutions.
+- Trust: We prioritize building trust with our customers through transparent and ethical business practices.
+- All: We are committed to serving all our customers, regardless of their size or requirements.',
+  
+  STARTER_ABOUT_BUTTON_TEXT: 'More',
   STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
-  STARTER_ABOUT_TIPS_1: '7000+',
-  STARTER_ABOUT_TIPS_2: '博客站点',
-  STARTER_ABOUT_TIPS_3: '正在线上运行',
+  STARTER_ABOUT_TIPS_1: '20+',
+  STARTER_ABOUT_TIPS_2: 'Countries',
+  STARTER_ABOUT_TIPS_3: 'Shipped',
 
   // 首页价格区块
   STARTER_PRICING_ENABLE: false, // 价格区块开关
@@ -190,9 +195,8 @@ const CONFIG = {
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
   STARTER_BLOG_TITLE: 'Blogs',
-  STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
-  STARTER_BLOG_TEXT_1: 'New Tips',
-  STARTER_BLOG_TEXT_2: '这里会发布一些关于NotionNext的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
+  STARTER_BLOG_COUNT: 9, // 首页博文区块默认展示前3篇文章
+  STARTER_BLOG_TEXT_1: 'New Arrivals',
 
   // 联系模块
   STARTER_CONTACT_ENABLE: true, // 联系模块开关
@@ -203,16 +207,6 @@ const CONFIG = {
   STARTER_CONTACT_EMAIL_TITLE: 'Email？',
   STARTER_CONTACT_EMAIL_TEXT: 'info@watahome.com',
 
-  // 嵌入外部表单
-  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/yfctc7', // 基于NoteForm创建，将留言数据存在Notion中
-  //   自定义留言表单，以下几个配置暂时废弃
-  //   STARTER_CONTACT_MSG_TITLE: '向我们留言',
-  //   STARTER_CONTACT_MSG_NAME: '姓名',
-  //   STARTER_CONTACT_MSG_EMAIL: '邮箱地址',
-  //   STARTER_CONTACT_MSG_PHONE: '联系电话',
-  //   STARTER_CONTACT_MSG_TEXT: '消息内容',
-  //   STARTER_CONTACT_MSG_SEND: '发送消息',
-  //   STARTER_CONTACT_MSG_THANKS: '感谢您的留言',
 
   // 合作伙伴的图标
   STARTER_BRANDS_ENABLE: false, // 合作伙伴开关
