@@ -4,13 +4,13 @@
 const CONFIG = {
 
   // 默认只展示Logo文字，如果设置了logo图片，会在文字左侧显示图标
-  STARTER_LOGO: '/public/images/starter/logo/2.png', // 普通logo图片 示例：/images/starter/logo/logo.svg
+  STARTER_LOGO: '', // 普通logo图片 示例：/images/starter/logo/logo.svg
   STARTER_LOGO_WHITE: '', // 透明底浅色logo 示例： /images/starter/logo/logo-white.svg
 
   // MENU ， 菜单部分不在此处配置，请在Notion数据库中添加MENU
 
   // 英雄区块导航
-  STARTER_HERO_TITLE_1: 'A Professional Supplier of Home Appliances', // 英雄区文字
+  STARTER_HERO_TITLE_1: 'A Professional Supplier <br /> Of <br /> Home Appliances', // 英雄区文字
   STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero-image.webp', // 产品预览图 ，默认读取public目录下图片
 
 
