@@ -42,13 +42,7 @@ const CONFIG = {
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
   STARTER_ABOUT_TITLE: 'Professional Home Appliances Solution Provider',
-  STARTER_ABOUT_TEXT: 'WATA is a professional supply chain company specializing in home appliances. With over 8 years of experience, we have established ourselves as a reliable and trusted supplier in the industry. <br /> <br />  Our Value:
-
-- Worth: We strive to deliver products and services of the highest worth to our customers.
-- All: We cater to the diverse needs of all our clients and provide comprehensive solutions.
-- Trust: We prioritize building trust with our customers through transparent and ethical business practices.
-- All: We are committed to serving all our customers, regardless of their size or requirements.',
-  
+  STARTER_ABOUT_TEXT: 'WATA is a professional supply chain company specializing in home appliances. With over 8 years of experience, we have established ourselves as a reliable and trusted supplier in the industry',
   STARTER_ABOUT_BUTTON_TEXT: 'More',
   STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
