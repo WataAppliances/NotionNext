@@ -188,7 +188,7 @@ const CONFIG = {
 
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
-  STARTER_BLOG_TITLE: 'Blogs',
+  STARTER_BLOG_TITLE: '',
   STARTER_BLOG_COUNT: 9, // 首页博文区块默认展示前3篇文章
   STARTER_BLOG_TEXT_1: 'New Arrivals',
 
@@ -265,7 +265,6 @@ const CONFIG = {
       ]
     }
   ],
-
 
   // 404页面的提示语
   STARTER_404_TITLE: '我们似乎找不到您要找的页面。',
