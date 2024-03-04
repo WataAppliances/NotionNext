@@ -12,7 +12,6 @@ const CONFIG = {
   STARTER_HERO_TITLE_1: 'A Professional Supplier Of Home Appliances', // 英雄区文字
   STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero-image.webp', // 产品预览图 ，默认读取public目录下图片
 
-
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
   STARTER_FEATURE_TITLE: ' ', // 特性
