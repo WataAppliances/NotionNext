@@ -186,8 +186,8 @@ const CONFIG = {
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
   STARTER_BLOG_TITLE: '',
-  STARTER_BLOG_COUNT: 9, // 首页博文区块默认展示前3篇文章
-  STARTER_BLOG_TEXT_1: 'New Arrivals',
+  STARTER_BLOG_COUNT: 6, // 首页博文区块默认展示前3篇文章
+  STARTER_BLOG_TEXT_1: 'New Arrival',
 
   // 联系模块
   STARTER_CONTACT_ENABLE: true, // 联系模块开关
