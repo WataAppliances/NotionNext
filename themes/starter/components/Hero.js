@@ -33,8 +33,61 @@ export const Hero = () => {
               >
                 {siteConfig('STARTER_HERO_TITLE_2', null, CONFIG)}
               </p>
+              {/* 按钮组 */}
+              <ul
+                className="mb-10 flex flex-wrap items-center justify-center gap-5"
+              >
+                <li>
+                  <a
+                    href={siteConfig('STARTER_HERO_BUTTON_1_URL', null, CONFIG)}
+                    className="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2 hover:text-body-color"
+                  >
+                     {siteConfig('STARTER_HERO_BUTTON_1_TEXT', null, CONFIG)}
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href={siteConfig('STARTER_HERO_BUTTON_2_URL', null, CONFIG)}
+                    target="_blank"
+                    className="flex items-center rounded-md bg-white/[0.12] px-6 py-[14px] text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark" rel="noreferrer"
+                  >
+                    {siteConfig('STARTER_HERO_BUTTON_2_ICON', null, CONFIG) && <img className='mr-4' src={siteConfig('STARTER_HERO_BUTTON_2_ICON', null, CONFIG)}/>}
+                    {siteConfig('STARTER_HERO_BUTTON_2_TEXT', null, CONFIG)}
+                  </a>
+                </li>
+              </ul>
 
-             
+              {/* 技术栈说明 */}
+              <div>
+                <p className="mb-4 text-center text-base font-medium text-white">
+                {siteConfig('STARTER_HERO_TITLE_3', null, CONFIG)}
+                </p>
+
+                {/* 产品技术栈图标 */}
+                <div data-wow-delay=".3s" className="wow fadeInUp flex items-center justify-center gap-4 text-center">
+
+                  {/* 图标放这里 */}
+                    <a target="_blank" rel="noreferrer" href="https://github.com/uideck/play-bootstrap/"
+                        className="text-white/60 duration-300 ease-in-out hover:text-white" >
+                        <SVGPlayBootstrap/>
+                    </a>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/TailGrids/play-tailwind/"
+                        className="text-white/60 duration-300 ease-in-out hover:text-white" >
+                        <SVGPlayTailwind/>
+                    </a>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/NextJSTemplates/play-nextjs"
+                        className="text-white/60 duration-300 ease-in-out hover:text-white" >
+                      <SVGPlayReact/>
+                    </a>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/TailGrids/play-astro/"
+                       className="text-white/60 duration-300 ease-in-out hover:text-white" >
+                       <SVGPlayAstro/>
+                    </a>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/NextJSTemplates/play-nextjs"
+                        className="text-white/60 duration-300 ease-in-out hover:text-white" >
+                        <SVGPlayNext/>
+                    </a>
+
                 </div>
 
               </div>
