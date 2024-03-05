@@ -8,9 +8,8 @@ const CONFIG = {
   STARTER_LOGO_WHITE: '', // 透明底浅色logo 示例： /images/starter/logo/logo-white.svg
 
   // MENU ， 菜单部分不在此处配置，请在Notion数据库中添加MENU
-
-  STARTER_HERO_TITLE_1: 'A Professional Supplier Of Home Appliances', // 英雄区文字
-  STARTER_HERO_PREVIEW_IMAGE: '/public/images/starter/hero/hero-image.webp', // 产品预览图 ，默认读取public目录下图片
+    STARTER_HERO_TITLE_1: 'A Professional Supplier Of Home Appliances', // 英雄区文字
+  STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero-image.webp', // 产品预览图 ，默认读取public目录下图片
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
