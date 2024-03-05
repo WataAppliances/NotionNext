@@ -63,6 +63,16 @@ export const Footer = (props) => {
                 </h4>
                     {/* 展示两条最新博客文章 */}
                 
+
+                  return <a key={index}
+                    href={url}
+                    className="group flex items-center gap-[22px]"
+                >
+                    <div className="overflow-hidden rounded w-20 h-12">
+                    <img
+                        src={item.pageCoverThumbnail}
+                        alt={item.title}
+                    />
                     </div>
                     <span
                     className="line-clamp-2 max-w-[180px] text-base text-gray-7 group-hover:text-white"
