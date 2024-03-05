@@ -41,14 +41,7 @@ export const Hero = () => {
                  
                 </li>
                 <li>
-                  <a
-                    href={siteConfig('STARTER_HERO_BUTTON_2_URL', null, CONFIG)}
-                    target="_blank"
-                    className="flex items-center rounded-md bg-white/[0.12] px-6 py-[14px] text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark" rel="noreferrer"
-                  >
-                    {siteConfig('STARTER_HERO_BUTTON_2_ICON', null, CONFIG) && <img className='mr-4' src={siteConfig('STARTER_HERO_BUTTON_2_ICON', null, CONFIG)}/>}
-                    {siteConfig('STARTER_HERO_BUTTON_2_TEXT', null, CONFIG)}
-                  </a>
+                  
                 </li>
               </ul>
 
