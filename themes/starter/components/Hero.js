@@ -55,26 +55,7 @@ export const Hero = () => {
                 <div data-wow-delay=".3s" className="wow fadeInUp flex items-center justify-center gap-4 text-center">
 
                   {/* 图标放这里 */}
-                    <a target="_blank" rel="noreferrer" href="https://github.com/uideck/play-bootstrap/"
-                        className="text-white/60 duration-300 ease-in-out hover:text-white" >
-                        <SVGPlayBootstrap/>
-                    </a>
-                    <a target="_blank" rel="noreferrer" href="https://github.com/TailGrids/play-tailwind/"
-                        className="text-white/60 duration-300 ease-in-out hover:text-white" >
-                        <SVGPlayTailwind/>
-                    </a>
-                    <a target="_blank" rel="noreferrer" href="https://github.com/NextJSTemplates/play-nextjs"
-                        className="text-white/60 duration-300 ease-in-out hover:text-white" >
-                      <SVGPlayReact/>
-                    </a>
-                    <a target="_blank" rel="noreferrer" href="https://github.com/TailGrids/play-astro/"
-                       className="text-white/60 duration-300 ease-in-out hover:text-white" >
-                       <SVGPlayAstro/>
-                    </a>
-                    <a target="_blank" rel="noreferrer" href="https://github.com/NextJSTemplates/play-nextjs"
-                        className="text-white/60 duration-300 ease-in-out hover:text-white" >
-                        <SVGPlayNext/>
-                    </a>
+                
 
                 </div>
 
