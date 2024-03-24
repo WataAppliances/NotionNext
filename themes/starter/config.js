@@ -17,31 +17,23 @@ const CONFIG = {
   STARTER_FEATURE_TEXT_1: 'Wata Services', // 特性
 
   STARTER_FEATURE_1_TITLE_1: 'Home Appliances', // 特性1
-  STARTER_FEATURE_1_TEXT_1: 'Providing air conditioner, washing machine,dehumidifier and so on', // 特性1
-  STARTER_FEATURE_1_BUTTON_TEXT: 'More', // 特性1
-  STARTER_FEATURE_1_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 特性1
+  STARTER_FEATURE_1_TEXT_1: 'Providing air conditioner, washing machine,TV, refrigerator, freezer,kitchen appliances, clean appliances, dehumidifier and so on', // 特性1
 
   STARTER_FEATURE_2_TITLE_1: 'Parts and Lines', // 特性2
   STARTER_FEATURE_2_TEXT_1: 'Spare parts and production line for home appliances is available', // 特性2
-  STARTER_FEATURE_2_BUTTON_TEXT: 'More', // 特性2
-  STARTER_FEATURE_2_BUTTON_URL: 'https://docs.tangly1024.com/article/notion-next-themes', // 特性2
-
+  
   STARTER_FEATURE_3_TITLE_1: 'Shipping Fowarder', // 特性3
   STARTER_FEATURE_3_TEXT_1: 'Offer shipping service for our customers', // 特性3
-  STARTER_FEATURE_3_BUTTON_TEXT: 'More', // 特性3
-  STARTER_FEATURE_3_BUTTON_URL: 'https://docs.tangly1024.com/article/next-js', // 特性3
 
   STARTER_FEATURE_4_TITLE_1: 'Sourcing', // 特性4
   STARTER_FEATURE_4_TEXT_1: 'If you have other demands from China, we are happy to help', // 特性4
-  STARTER_FEATURE_4_BUTTON_TEXT: 'More', // 特性4
-  STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
   STARTER_ABOUT_TITLE: 'Professional Home Appliances Solution Provider',
   STARTER_ABOUT_TEXT: 'WATA is a professional supply chain company specializing in home appliances. With over 8 years of experience, we have established ourselves as a reliable and trusted supplier in the industry',
   STARTER_ABOUT_BUTTON_TEXT: 'More',
-  STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
+  STARTER_ABOUT_BUTTON_URL: 'https://www.watahome.com/About',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
   STARTER_ABOUT_TIPS_1: '20+',
@@ -190,7 +182,7 @@ const CONFIG = {
   STARTER_BLOG_TEXT_1: 'New Arrival',
 
   // 联系模块
-  STARTER_CONTACT_ENABLE: true, // 联系模块开关
+  STARTER_CONTACT_ENABLE: false, // 联系模块开关
   STARTER_CONTACT_TITLE: 'Now',
   STARTER_CONTACT_TEXT: 'Contact US?',
   STARTER_CONTACT_LOCATION_TITLE: 'Location',
@@ -242,23 +234,22 @@ const CONFIG = {
       TITLE: 'About',
       LINK_GROUP: [
         { TITLE: 'Home', URL: '/#home' },
-        { TITLE: 'About US', URL: 'https://docs.tangly1024.com/about' },
+        { TITLE: 'About US', URL: 'https://www.watahome.com/About' },
       ]
     },
     {
       TITLE: 'Services',
       LINK_GROUP: [
-        { TITLE: 'Washing Machine', URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next' },
-        { TITLE: 'Air Conditioner', URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext' },
-        { TITLE: 'Refrigerator', URL: 'https://docs.tangly1024.com/article/latest' }
+        { TITLE: 'Washing Machine', URL: 'https://www.watahome.com/article/washingmachine' },
+        { TITLE: 'Air Conditioner', URL: 'https://www.watahome.com/article/Air%20Conditioner' },
+        { TITLE: 'Commercial AC', URL: 'https://www.watahome.com/article/CommercialAirConditioner' }
       ]
     },
     {
       TITLE: 'Spare Parts',
       LINK_GROUP: [
-        { TITLE: 'AC Brackets', URL: 'https://docs.tangly1024.com/article/start-to-write' },
-        { TITLE: 'Production Line', URL: 'https://docs.tangly1024.com/article/notion-short-key' },
-        { TITLE: 'Parts', URL: 'https://docs.tangly1024.com/article/notion-faster' }
+        { TITLE: 'Parts', URL: 'https://www.watahome.com/article/spareparts' },
+        { TITLE: 'Production Line', URL: 'https://www.watahome.com/article/ProductionLine' },
       ]
     }
   ],
