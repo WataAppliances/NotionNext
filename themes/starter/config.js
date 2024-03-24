@@ -8,8 +8,7 @@ const CONFIG = {
   STARTER_LOGO_WHITE: '', // 透明底浅色logo 示例： /images/starter/logo/logo-white.svg
 
   // MENU ， 菜单部分不在此处配置，请在Notion数据库中添加MENU
-  STARTER_HERO_TITLE_1: 'A Professional Supplier of', // 英雄区文字
-  STARTER_HERO_TITLE_1: 'Home Appliances', // 英雄区文字
+  STARTER_HERO_TITLE_1: 'A Professional Supplier of Home Appliances', // 英雄区文字
   STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero-image-main.webp', // 产品预览图 ，默认读取public目录下图片
 
   // 特性区块
@@ -30,7 +29,7 @@ const CONFIG = {
   STARTER_FEATURE_4_TEXT_1: 'If you have other demands from China, we are happy to help', // 特性4
 
   // 首页ABOUT区块
-  STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
+  STARTER_ABOUT_ENABLE: false, // ABOUT区块开关
   STARTER_ABOUT_TITLE: 'Professional Home Appliances Solution Provider',
   STARTER_ABOUT_TEXT: 'WATA is a professional supply chain company specializing in home appliances. With over 8 years of experience, we have established ourselves as a reliable and trusted supplier in the industry',
   STARTER_ABOUT_BUTTON_TEXT: 'More',
