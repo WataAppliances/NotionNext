@@ -51,7 +51,7 @@ const Style = () => {
   
   .sticky #navbarCollapse li > a:hover{
     --tw-text-opacity: 1;
-    color: rgb(55 88 249 / var(--tw-text-opacity));
+    color: rgb(255 255 249 / var(--tw-text-opacity));
     opacity: 1;
   }
   
@@ -62,7 +62,7 @@ const Style = () => {
   
   :is(.dark .sticky #navbarCollapse li > a:hover){
     --tw-text-opacity: 1;
-    color: rgb(55 88 249 / var(--tw-text-opacity));
+    color: rgb(255 255 249 / var(--tw-text-opacity));
   }
   
   #navbarCollapse li .ud-menu-scroll.active{
@@ -71,7 +71,7 @@ const Style = () => {
   
   .sticky #navbarCollapse li .ud-menu-scroll.active{
     --tw-text-opacity: 1;
-    color: rgb(55 88 249 / var(--tw-text-opacity));
+    color: rgb(255 255 249 / var(--tw-text-opacity));
     opacity: 1;
   }
   
