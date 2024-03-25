@@ -46,7 +46,7 @@ const Style = () => {
   
   .sticky #navbarCollapse li > a{
     --tw-text-opacity: 1;
-    color: rgb(17 25 40 / var(--tw-text-opacity));
+    color: rgb(217 217 217 / var(--tw-text-opacity));
   }
   
   .sticky #navbarCollapse li > a:hover{
@@ -77,12 +77,12 @@ const Style = () => {
   
   .sticky #themeSwitcher ~ span{
     --tw-text-opacity: 1;
-    color: rgb(17 25 40 / var(--tw-text-opacity));
+    color: rgb(255 255 249 / var(--tw-text-opacity));
   }
   
   :is(.dark .sticky #themeSwitcher ~ span){
     --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
+    color: rgb(255 255 249 / var(--tw-text-opacity));
   }
   
   .navbarTogglerActive > span:nth-child(1){
