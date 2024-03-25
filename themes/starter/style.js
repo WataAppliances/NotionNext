@@ -37,7 +37,7 @@ const Style = () => {
   
   .sticky #navbarToggler span{
     --tw-bg-opacity: 1;
-    background-color: rgb(217 217 217 / var(--tw-bg-opacity));
+    background-color: rgb(17 25 40 / var(--tw-bg-opacity));
   }
   
   :is(.dark .sticky #navbarToggler span){
