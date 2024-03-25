@@ -18,7 +18,7 @@ export const Hero = () => {
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4">
             <div
-              className="hero-content wow fadeInUp mx-auto max-w-[780px] text-center"
+              className="hero-content wow fadeInUp mx-auto max-w-[1280px] text-center"
               data-wow-delay=".2s"
             >
               {/* 主标题 */}
