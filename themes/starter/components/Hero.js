@@ -67,7 +67,7 @@ export const Hero = () => {
           {/* 产品预览图片 */}
           <div className="w-full px-4">
             <div
-              className="wow fadeInUp relative z-10 mx-auto max-w-[845px]"
+              className="wow fadeInUp relative z-10 mx-auto max-w-[1280px]"
               data-wow-delay=".25s"
             >
               <div className="mt-16">
