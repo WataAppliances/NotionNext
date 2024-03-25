@@ -41,7 +41,7 @@ const Style = () => {
   
   :is(.dark .sticky #navbarToggler span){
     --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / 0);
+    background-color: rgb(132 133 135 / 0);
   }
   
   .sticky #navbarCollapse li > a{
@@ -138,7 +138,7 @@ const Style = () => {
 .common-carousel .swiper-button-next:hover,
 .common-carousel .swiper-button-prev:hover{
   --tw-bg-opacity: 1;
-  background-color: rgb(55 88 249 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
   --tw-shadow: 0 0 #0000;
